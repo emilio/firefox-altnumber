@@ -1,5 +1,5 @@
 {
-  "author": "AbigailBuccaneer",
+  "author": "Emilio Cobos Álvarez <emilio@crisal.io>",
   "background": {
     "scripts": [
       "ctrlnumber.js"
@@ -9,62 +9,62 @@
     "switch-tab-1": {
       "description": "Switch to the first tab",
       "suggested_key": {
-        "default": "Ctrl+1"
+        "default": "Alt+1"
       }
     },
     "switch-tab-2": {
       "description": "Switch to the second tab",
       "suggested_key": {
-        "default": "Ctrl+2"
+        "default": "Alt+2"
       }
     },
     "switch-tab-3": {
       "description": "Switch to the third tab",
       "suggested_key": {
-        "default": "Ctrl+3"
+        "default": "Alt+3"
       }
     },
     "switch-tab-4": {
       "description": "Switch to the fourth tab",
       "suggested_key": {
-        "default": "Ctrl+4"
+        "default": "Alt+4"
       }
     },
     "switch-tab-5": {
       "description": "Switch to the fifth tab",
       "suggested_key": {
-        "default": "Ctrl+5"
+        "default": "Alt+5"
       }
     },
     "switch-tab-6": {
       "description": "Switch to the sixth tab",
       "suggested_key": {
-        "default": "Ctrl+6"
+        "default": "Alt+6"
       }
     },
     "switch-tab-7": {
       "description": "Switch to the seventh tab",
       "suggested_key": {
-        "default": "Ctrl+7"
+        "default": "Alt+7"
       }
     },
     "switch-tab-8": {
       "description": "Switch to the eighth tab",
       "suggested_key": {
-        "default": "Ctrl+8"
+        "default": "Alt+8"
       }
     },
     "switch-tab-9": {
       "description": "Switch to the last tab",
       "suggested_key": {
-        "default": "Ctrl+9"
+        "default": "Alt+9"
       }
     }
   },
-  "description": "This extension adds keyboard shortcuts to switch tabs. Ctrl+1 switches to the first tab, Ctrl+2 switches to the second tab, and so on. Ctrl+9 switches to the last tab.",
-  "homepage_url": "https://github.com/AbigailBuccaneer/firefox-ctrlnumber#readme",
+  "description": "This extension adds keyboard shortcuts to switch tabs. Alt+1 switches to the first tab, Alt+2 switches to the second tab, and so on. Alt+9 switches to the last tab. This matches the shortcuts on Linux",
+  "homepage_url": "https://github.com/emilio/firefox-altnumber#readme",
   "manifest_version": 2,
-  "name": "Ctrl+Number to switch tabs",
-  "short_name": "Ctrl+Number",
-  "version": "1.0.1"
+  "name": "Alt+Number to switch tabs",
+  "short_name": "Alt+Number",
+  "version": "1.0.0"
 }

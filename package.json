@@ -1,22 +1,24 @@
 {
-  "name": "firefox-ctrlnumber",
+  "name": "firefox-altnumber",
   "version": "1.0.0",
-  "description": "Adds keyboard shortcut Ctrl+1 to switch to the first tab, Ctrl+2 to switch to the second, and so on. Ctrl+9 switches to the last tab.",
-  "main": "ctrlnumber.js",
+  "description": "Adds keyboard shortcut Alt+1 to switch to the first tab, Alt+2 to switch to the second, and so on. Alt+9 switches to the last tab.",
   "scripts": {
     "test": "jsonlint --quiet *.json src/*.json && eslint . && web-ext lint --warnings-as-errors --no-input=true --source-dir src",
     "build": "web-ext build --overwrite-dest --no-input=true --source-dir src"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AbigailBuccaneer/firefox-ctrlnumber.git"
+    "url": "git+https://github.com/emilio/firefox-altnumber.git"
   },
   "author": "AbigailBuccaneer",
+  "contributors": [
+    "Emilio Cobos Álvarez <emilio@crisal.io>"
+  ],
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AbigailBuccaneer/firefox-ctrlnumber/issues"
+    "url": "https://github.com/emilio/firefox-altnumber/issues"
   },
-  "homepage": "https://github.com/AbigailBuccaneer/firefox-ctrlnumber#readme",
+  "homepage": "https://github.com/emilio/firefox-altnumber#readme",
   "devDependencies": {
     "eslint": "^6.8.0",
     "jsonlint": "^1.6.3",

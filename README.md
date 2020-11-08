@@ -1,6 +1,11 @@
-# firefox-ctrlnumber
+# firefox-altnumber
 
-This extension adds keyboard shortcuts to switch tabs with Ctrl+Number, similar to Chrome's keyboard shortcuts.
+This extension adds keyboard shortcuts to switch tabs with Alt+Number, similar
+to Firefox on Linux's shortcuts.
+
+This is effectively a tweaked version of the original
+[firefox-ctrlnumber](https://github.com/AbigailBuccaneer/firefox-ctrlnumber)
+extension.
 
 ## Installation
 
